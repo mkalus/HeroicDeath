@@ -128,6 +128,10 @@ public class HeroicDeathMessages
             currentParse = HeroicDeathMessages.ParseType.Giant;
         else if (thisLine.equalsIgnoreCase(":wolf"))
         	currentParse = HeroicDeathMessages.ParseType.Wolf;
+        else if (thisLine.equalsIgnoreCase(":blaze"))
+        	currentParse = HeroicDeathMessages.ParseType.Blaze;
+        else if (thisLine.equalsIgnoreCase(":cavespider"))
+        	currentParse = HeroicDeathMessages.ParseType.CaveSpider;
         else if (thisLine.equalsIgnoreCase(":lava"))
           currentParse = HeroicDeathMessages.ParseType.Lava;
         else if (thisLine.equalsIgnoreCase(":other"))
