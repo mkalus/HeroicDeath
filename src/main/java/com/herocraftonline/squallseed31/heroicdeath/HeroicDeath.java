@@ -95,6 +95,13 @@ public class HeroicDeath extends JavaPlugin
 		mobSlime = getConfig().getString( "monsters.slime", "Slime" );
 		mobGiant = getConfig().getString( "monsters.giant", "Giant" );
 		mobWolf = getConfig().getString( "monsters.wolf", "Wolf" );
+        mobBlaze = getConfig().getString( "monsters.blaze", "Blaze" );
+        mobCaveSpider = getConfig().getString( "monsters.cavespider", "CaveSpider" );
+        mobIronGolem = getConfig().getString( "monsters.irongolem", "IronGolem" );
+        mobEnderman = getConfig().getString( "monsters.enderman", "Enderman" );
+        mobDragon = getConfig().getString( "monsters.dragon", "Dragon" );
+        mobSilverfish = getConfig().getString( "monsters.silverfish", "Silverfish" );
+        mobMagmaCube = getConfig().getString( "monsters.magmacube", "MagmaCube" );
 		useDisplayName = getConfig().getBoolean( "options.useDisplayName", false );
 		serverBroadcast = getConfig().getBoolean( "options.serverBroadcast", true );
 		quietWorlds = getConfig().getStringList( "options.worlds.quiet" );
@@ -238,6 +245,13 @@ public class HeroicDeath extends JavaPlugin
 		getConfig().set( "monsters.slime", mobSlime );
 		getConfig().set( "monsters.giant", mobGiant );
 		getConfig().set( "monsters.wolf", mobWolf );
+        getConfig().set( "monsters.blaze", mobBlaze );
+        getConfig().set( "monsters.cavespider", mobCaveSpider );
+        getConfig().set( "monsters.irongolem", mobIronGolem );
+        getConfig().set( "monsters.enderman", mobEnderman );
+        getConfig().set( "monsters.dragon", mobDragon );
+        getConfig().set( "monsters.silverfish", mobSilverfish );
+        getConfig().set( "monsters.magmacube", mobMagmaCube );
 		getConfig().set( "options.useDisplayName", useDisplayName );
 		getConfig().set( "options.serverBroadcast", serverBroadcast );
 		getConfig().set( "options.worlds.quiet", quietWorlds );

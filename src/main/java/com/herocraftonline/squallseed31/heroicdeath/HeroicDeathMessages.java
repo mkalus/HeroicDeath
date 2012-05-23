@@ -132,6 +132,19 @@ public class HeroicDeathMessages
         	currentParse = HeroicDeathMessages.ParseType.Blaze;
         else if (thisLine.equalsIgnoreCase(":cavespider"))
         	currentParse = HeroicDeathMessages.ParseType.CaveSpider;
+<<<<<<< HEAD
+=======
+        else if (thisLine.equalsIgnoreCase(":irongolem"))
+        	currentParse = HeroicDeathMessages.ParseType.IronGolem;
+        else if (thisLine.equalsIgnoreCase(":enderman"))
+        	currentParse = HeroicDeathMessages.ParseType.Enderman;
+        else if (thisLine.equalsIgnoreCase(":dragon"))
+        	currentParse = HeroicDeathMessages.ParseType.Dragon;
+        else if (thisLine.equalsIgnoreCase(":silverfish"))
+        	currentParse = HeroicDeathMessages.ParseType.Silverfish;
+        else if (thisLine.equalsIgnoreCase(":magmacube"))
+        	currentParse = HeroicDeathMessages.ParseType.MagmaCube;
+>>>>>>> Added mobs from MC 1.2+ into HeroicDeath
         else if (thisLine.equalsIgnoreCase(":lava"))
           currentParse = HeroicDeathMessages.ParseType.Lava;
         else if (thisLine.equalsIgnoreCase(":other"))
@@ -209,6 +222,27 @@ public class HeroicDeathMessages
           case Giant:
         	  this.GiantMessages.add(thisLine);
         	  break;
+          case Blaze:
+              this.BlazeMessages.add(thisLine);
+              break;
+          case CaveSpider:
+               this.CaveSpiderMessages.add(thisLine);
+               break;
+          case IronGolem:
+               this.IronGolemMessages.add(thisLine);
+               break;
+          case Enderman:
+               this.EndermanMessages.add(thisLine);
+               break;
+          case Dragon:
+               this.DragonMessages.add(thisLine);
+               break;
+          case Silverfish:
+               this.SilverfishMessages.add(thisLine);
+               break;
+          case MagmaCube:
+               this.MagmaCubeMessages.add(thisLine);
+               break;
           case Dispenser:
         	this.DispenserMessages.add(thisLine);
         	break;
@@ -342,7 +376,7 @@ public class HeroicDeathMessages
   {
     NONE, Drown, Cactus, Fire, Creeper, Explosion, 
     Fall, PVP, Void, Monster, Ghast, Slime, Zombie, PigZombie, 
-    Spider, Skeleton, Giant, Wolf, Lava, Other, Suffocation, 
+    Spider, Skeleton, Giant, Wolf, Blaze, CaveSpider, IronGolem, Enderman, Dragon, Silverfish, MagmaCube, Lava, Other, Suffocation, 
     Dispenser, Lightning, Suicide, Starvation;
   }
 }
