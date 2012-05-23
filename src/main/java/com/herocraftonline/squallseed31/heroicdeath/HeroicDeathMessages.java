@@ -28,6 +28,13 @@ public class HeroicDeathMessages
   public ArrayList<String> SkeletonMessages = new ArrayList<String>();
   public ArrayList<String> GiantMessages = new ArrayList<String>();
   public ArrayList<String> WolfMessages = new ArrayList<String>();
+  public ArrayList<String> BlazeMessages = new ArrayList<String>();
+  public ArrayList<String> CaveSpiderMessages = new ArrayList<String>();
+  public ArrayList<String> IronGolemMessages = new ArrayList<String>();
+  public ArrayList<String> EndermanMessages = new ArrayList<String>();
+  public ArrayList<String> DragonMessages = new ArrayList<String>();
+  public ArrayList<String> SilverfishMessages = new ArrayList<String>();
+  public ArrayList<String> MagmaCubeMessages = new ArrayList<String>();
   public ArrayList<String> LavaMessages = new ArrayList<String>();
   public ArrayList<String> SuffocationMessages = new ArrayList<String>();
   public ArrayList<String> DispenserMessages = new ArrayList<String>();
