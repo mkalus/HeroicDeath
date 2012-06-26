@@ -53,6 +53,13 @@ public class HeroicDeath extends JavaPlugin
 	public String						mobSlime;
 	public String						mobGiant;
 	public String						mobWolf;
+	public String						mobBlaze;
+	public String						mobCaveSpider;
+	public String						mobIronGolem;
+	public String						mobEnderman;
+	public String						mobDragon;
+	public String						mobSilverfish;
+	public String						mobMagmaCube;
 	public static boolean				useDisplayName;
 	public boolean						serverBroadcast;
 	public List<String>					quietWorlds;

@@ -19,7 +19,7 @@ import org.bukkit.entity.Blaze;
 import org.bukkit.entity.CaveSpider;
 import org.bukkit.entity.IronGolem;
 import org.bukkit.entity.Enderman;
-import org.bukkit.entity.Dragon;
+import org.bukkit.entity.EnderDragon;
 import org.bukkit.entity.Silverfish;
 import org.bukkit.entity.MagmaCube;
 import org.bukkit.event.*;
@@ -141,7 +141,7 @@ public class HeroicDeathListener implements Listener {
         else if ( damager instanceof Enderman ) {
 			attackerName = plugin.mobEnderman;
 		}
-        else if ( damager instanceof Dragon ) {
+        else if ( damager instanceof EnderDragon ) {
 			attackerName = plugin.mobDragon;
 		}
         else if ( damager instanceof Silverfish ) {

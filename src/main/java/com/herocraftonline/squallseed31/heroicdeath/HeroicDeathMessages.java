@@ -139,19 +139,16 @@ public class HeroicDeathMessages
         	currentParse = HeroicDeathMessages.ParseType.Blaze;
         else if (thisLine.equalsIgnoreCase(":cavespider"))
         	currentParse = HeroicDeathMessages.ParseType.CaveSpider;
-<<<<<<< HEAD
-=======
         else if (thisLine.equalsIgnoreCase(":irongolem"))
         	currentParse = HeroicDeathMessages.ParseType.IronGolem;
         else if (thisLine.equalsIgnoreCase(":enderman"))
         	currentParse = HeroicDeathMessages.ParseType.Enderman;
         else if (thisLine.equalsIgnoreCase(":dragon"))
-        	currentParse = HeroicDeathMessages.ParseType.Dragon;
+        	currentParse = HeroicDeathMessages.ParseType.EnderDragon;
         else if (thisLine.equalsIgnoreCase(":silverfish"))
         	currentParse = HeroicDeathMessages.ParseType.Silverfish;
         else if (thisLine.equalsIgnoreCase(":magmacube"))
         	currentParse = HeroicDeathMessages.ParseType.MagmaCube;
->>>>>>> Added mobs from MC 1.2+ into HeroicDeath
         else if (thisLine.equalsIgnoreCase(":lava"))
           currentParse = HeroicDeathMessages.ParseType.Lava;
         else if (thisLine.equalsIgnoreCase(":other"))
@@ -241,7 +238,7 @@ public class HeroicDeathMessages
           case Enderman:
                this.EndermanMessages.add(thisLine);
                break;
-          case Dragon:
+          case EnderDragon:
                this.DragonMessages.add(thisLine);
                break;
           case Silverfish:
@@ -383,7 +380,7 @@ public class HeroicDeathMessages
   {
     NONE, Drown, Cactus, Fire, Creeper, Explosion, 
     Fall, PVP, Void, Monster, Ghast, Slime, Zombie, PigZombie, 
-    Spider, Skeleton, Giant, Wolf, Blaze, CaveSpider, IronGolem, Enderman, Dragon, Silverfish, MagmaCube, Lava, Other, Suffocation, 
+    Spider, Skeleton, Giant, Wolf, Blaze, CaveSpider, IronGolem, Enderman, EnderDragon, Silverfish, MagmaCube, Lava, Other, Suffocation, 
     Dispenser, Lightning, Suicide, Starvation;
   }
 }
